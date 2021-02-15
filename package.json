@@ -1,0 +1,35 @@
+{
+  "name": "reezocar-test",
+  "version": "1.0.0",
+  "description": "integration",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mp-dev-stack/reezocar.git"
+  },
+  "author": "mehdi.houfani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mp-dev-stack/reezocar/issues"
+  },
+  "homepage": "https://github.com/mp-dev-stack/reezocar#readme",
+  "dependencies": {
+    "next": "^10.0.6",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "styled-components": "^5.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.20.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-react": "^7.22.0",
+    "eslint-plugin-styled-components-a11y": "0.0.31"
+  }
+}
