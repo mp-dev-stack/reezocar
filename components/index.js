@@ -9,3 +9,5 @@ export { default as InputFormText } from './InputFormText';
 export { default as InputFormSearch } from './InputFormSearch';
 export { default as ButtonSubmitForm } from './ButtonSubmitForm';
 export { default as CarousselAvis } from './CarousselAvis';
+export { default as DropdownButton } from './DropdownButton';
+export { default as CarousselAnnonces } from './CarousselAnnonces';

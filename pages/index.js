@@ -5,7 +5,7 @@ import {
   GlobalStyle, Layout,
 } from '../components';
 
-import { HeaderSection, AvisSection } from '../sections';
+import { HeaderSection, AvisSection, SearchCarSection } from '../sections';
 import defaultTheme from '../theme';
 
 const App = () => <Layout>
@@ -13,6 +13,7 @@ const App = () => <Layout>
     <GlobalStyle/>
         <HeaderSection/>
         <AvisSection/>
+        <SearchCarSection/>
     </ThemeProvider>
 </Layout>;
 
