@@ -1,10 +1,8 @@
-import React from 'react';
-import * as PropTypes from 'prop-types';
+import styled from 'styled-components';
 
-const Container = ({ children, ...props }) => <section {...props}>{children}</section>;
-
-Container.propTypes = {
-  children: PropTypes.element,
-};
+const Container = styled.div`
+    display: flex;
+    flex-direction: column
+`;
 
 export default Container;

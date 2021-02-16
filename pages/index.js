@@ -2,15 +2,18 @@ import React from 'react';
 import { ThemeProvider } from 'styled-components';
 
 import {
-  GlobalStyle, Container, Logo,
+  GlobalStyle, Layout,
 } from '../components';
 
-import { HeaderSection } from '../sections';
+import { HeaderSection, AvisSection } from '../sections';
 import defaultTheme from '../theme';
 
-const App = () => <ThemeProvider theme={defaultTheme}>
+const App = () => <Layout>
+    <ThemeProvider theme={defaultTheme}>
     <GlobalStyle/>
         <HeaderSection/>
-    </ThemeProvider>;
+        <AvisSection/>
+    </ThemeProvider>
+</Layout>;
 
 export default App;

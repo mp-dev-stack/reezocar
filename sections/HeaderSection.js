@@ -6,17 +6,16 @@ import {
 
 const Header = styled.header`
     width: 100%;
-    height: 860px;
+    min-height: 860px;
     background-image: url("/images/header.jpeg");
     background-repeat: no-repeat;
-    background-attachment: local;
-    background-position: -13px -69px;
+    background-position: center center;
     background-size: cover;`;
 
 const HeaderContent = styled.div`
     margin-top: 122px;
     margin-left: 144px;
-    margin-right: 130px`;
+    `;
 
 const HeaderBarStyled = styled(HeaderBar)`
     display: flex;
@@ -82,7 +81,7 @@ const HeaderSection = () => <Header>
             {'Trouver une petite annonce de annonce de voiture d\'occasion près de chez vous ou partout en France :'}
         </HeaderSubtitle>
         <HeaderFormSearch>
-            <InputFormText label={'Quel vehicule recherchez-vous ?'} value={'Peugeot 308 GTI'}/>
+            <InputFormText label={'Quel vehicule recherchez-vous ?'} defaultValue={'Peugeot 308 GTI'}/>
             <InputFormSearch label={'Ville, département'} placeholder={'Ex: Paris (75)'}/>
             <ButtonSubmitForm>
                 Rechercher
